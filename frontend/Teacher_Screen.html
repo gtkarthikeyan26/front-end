@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teacher</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Teacher</h2>
+        <form id="addStudentForm">
+            <div class="input-group">
+                <label for="teacherId>Teacher ID:</label>
+                <input type="text" id="teacherId" name="teacherId" required>
+            </div>
+            <div class="input-group">
+                <label for="name">TeacherID:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="class">Subject:</label>
+                <input type="text" id="class" name="class" required>
+            </div>
+            <button type="submit">Add Teacher</button>
+        </form>
+    </div>
+    <div class="student-table">
+        <h2>teacher Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>teacher ID</th>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dummy Data -->
+                <tr>
+                    <td>1</td>
+                    <td>Jason</td>
+                    
+                    <td>
+                        <button class="edit-btn">Edit</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jade</td>
+                    <td>
+                        <button class="edit-btn">Edit</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
